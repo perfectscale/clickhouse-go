@@ -20,7 +20,8 @@ package std
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
+
+	"github.com/perfectscale/clickhouse-go/v2"
 )
 
 func ConnectHTTP() error {

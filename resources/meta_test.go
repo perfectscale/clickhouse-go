@@ -18,10 +18,11 @@
 package resources
 
 import (
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
+	"testing"
+
+	"github.com/perfectscale/clickhouse-go/v2/lib/proto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
 )
 
 var m Meta = Meta{
