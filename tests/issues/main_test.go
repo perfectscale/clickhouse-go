@@ -20,12 +20,13 @@ package issues
 import (
 	"context"
 	"fmt"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
 	"math/rand"
 	"os"
 	"strconv"
 	"testing"
 	"time"
+
+	clickhouse_tests "github.com/perfectscale/clickhouse-go/v2/tests"
 )
 
 const testSet string = "issues"

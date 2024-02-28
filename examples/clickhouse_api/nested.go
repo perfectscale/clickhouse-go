@@ -20,8 +20,9 @@ package clickhouse_api
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"strconv"
+
+	"github.com/perfectscale/clickhouse-go/v2"
 )
 
 func NestedUnFlattened() error {

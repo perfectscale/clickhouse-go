@@ -21,13 +21,14 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
 	"io"
 	"io/ioutil"
 	"regexp"
 	"strings"
+
+	"github.com/perfectscale/clickhouse-go/v2/lib/column"
+	"github.com/perfectscale/clickhouse-go/v2/lib/driver"
+	"github.com/perfectscale/clickhouse-go/v2/lib/proto"
 )
 
 // \x60 represents a backtick
