@@ -21,11 +21,10 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
+	"github.com/ClickHouse/clickhouse-go/v2"
 	"io/ioutil"
 	"os"
 	"path"
-
-	"github.com/perfectscale/clickhouse-go/v2"
 )
 
 func SSLVersion() error {

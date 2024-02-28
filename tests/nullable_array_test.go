@@ -20,14 +20,13 @@ package tests
 import (
 	"context"
 	"fmt"
+	"github.com/stretchr/testify/require"
 	"net"
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/require"
-
+	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/google/uuid"
-	"github.com/perfectscale/clickhouse-go/v2"
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/assert"
 )

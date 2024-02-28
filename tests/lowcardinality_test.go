@@ -20,13 +20,12 @@ package tests
 import (
 	"context"
 	"fmt"
+	"github.com/stretchr/testify/require"
 	"math/rand"
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/require"
-
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
 )
 

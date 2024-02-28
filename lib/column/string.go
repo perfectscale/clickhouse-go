@@ -22,11 +22,10 @@ import (
 	"database/sql/driver"
 	"encoding"
 	"fmt"
+	"github.com/ClickHouse/ch-go/proto"
 	"reflect"
 
-	"github.com/ClickHouse/ch-go/proto"
-
-	"github.com/perfectscale/clickhouse-go/v2/lib/binary"
+	"github.com/ClickHouse/clickhouse-go/v2/lib/binary"
 )
 
 type String struct {

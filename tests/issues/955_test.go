@@ -19,14 +19,13 @@ package issues
 
 import (
 	"context"
-	"reflect"
-	"testing"
-
-	"github.com/perfectscale/clickhouse-go/v2"
-	"github.com/perfectscale/clickhouse-go/v2/lib/driver"
-	clickhouse_tests "github.com/perfectscale/clickhouse-go/v2/tests"
+	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
+	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"reflect"
+	"testing"
 )
 
 func Test955(t *testing.T) {

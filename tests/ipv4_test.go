@@ -22,14 +22,13 @@ import (
 	"database/sql/driver"
 	"encoding/binary"
 	"fmt"
+	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
+	"github.com/stretchr/testify/require"
 	"net"
 	"net/netip"
 	"testing"
 
-	"github.com/perfectscale/clickhouse-go/v2/lib/column"
-	"github.com/stretchr/testify/require"
-
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
 )
 

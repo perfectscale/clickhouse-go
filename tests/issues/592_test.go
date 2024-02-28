@@ -19,10 +19,9 @@ package issues
 
 import (
 	"context"
-	"testing"
-
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestIssue592(t *testing.T) {

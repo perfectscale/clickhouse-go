@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/perfectscale/clickhouse-go/v2"
-	"github.com/perfectscale/clickhouse-go/v2/ext"
+	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2/ext"
 )
 
 func ExternalData() error {

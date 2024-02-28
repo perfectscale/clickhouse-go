@@ -20,7 +20,7 @@ package std
 import (
 	"fmt"
 
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 )
 
 func MapInsertRead() error {

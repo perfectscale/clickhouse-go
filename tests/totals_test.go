@@ -19,11 +19,10 @@ package tests
 
 import (
 	"context"
+	"github.com/stretchr/testify/require"
 	"testing"
 
-	"github.com/stretchr/testify/require"
-
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
 )
 

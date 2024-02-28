@@ -18,13 +18,12 @@
 package issues
 
 import (
+	"github.com/ClickHouse/clickhouse-go/v2"
+	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
+	clickhouse_std_tests "github.com/ClickHouse/clickhouse-go/v2/tests/std"
+	"github.com/stretchr/testify/require"
 	"strconv"
 	"testing"
-
-	"github.com/perfectscale/clickhouse-go/v2"
-	clickhouse_tests "github.com/perfectscale/clickhouse-go/v2/tests"
-	clickhouse_std_tests "github.com/perfectscale/clickhouse-go/v2/tests/std"
-	"github.com/stretchr/testify/require"
 )
 
 func Test813(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 )
 
 const ddl = `

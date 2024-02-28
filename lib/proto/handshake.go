@@ -19,14 +19,13 @@ package proto
 
 import (
 	"fmt"
+	chproto "github.com/ClickHouse/ch-go/proto"
+	"gopkg.in/yaml.v3"
 	"strconv"
 	"strings"
 	"time"
 
-	chproto "github.com/ClickHouse/ch-go/proto"
-	"gopkg.in/yaml.v3"
-
-	"github.com/perfectscale/clickhouse-go/v2/lib/timezone"
+	"github.com/ClickHouse/clickhouse-go/v2/lib/timezone"
 )
 
 type ClientHandshake struct {

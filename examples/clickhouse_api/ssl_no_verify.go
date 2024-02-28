@@ -20,8 +20,7 @@ package clickhouse_api
 import (
 	"crypto/tls"
 	"fmt"
-
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 )
 
 func SSLNoVerifyVersion() error {

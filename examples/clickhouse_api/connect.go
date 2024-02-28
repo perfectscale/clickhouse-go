@@ -19,8 +19,7 @@ package clickhouse_api
 
 import (
 	"fmt"
-
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 )
 
 func Connect() error {

@@ -19,10 +19,9 @@ package tests
 
 import (
 	"context"
-	"testing"
-
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/require"
+	"testing"
 )
 
 func TestBoolUInt8(t *testing.T) {

@@ -20,8 +20,7 @@ package std
 import (
 	"database/sql"
 	"fmt"
-
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 )
 
 func ConnectAuth() error {

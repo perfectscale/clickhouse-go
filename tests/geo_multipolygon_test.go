@@ -21,13 +21,12 @@ import (
 	"context"
 	"database/sql/driver"
 	"fmt"
+	"github.com/stretchr/testify/require"
 	"math/rand"
 	"testing"
 
-	"github.com/stretchr/testify/require"
-
+	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/paulmach/orb"
-	"github.com/perfectscale/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
 )
 

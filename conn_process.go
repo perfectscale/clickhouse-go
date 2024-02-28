@@ -20,9 +20,8 @@ package clickhouse
 import (
 	"context"
 	"fmt"
+	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
 	"io"
-
-	"github.com/perfectscale/clickhouse-go/v2/lib/proto"
 )
 
 type onProcess struct {

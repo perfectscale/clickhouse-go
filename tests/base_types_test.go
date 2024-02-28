@@ -21,11 +21,10 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"testing"
-
-	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"testing"
 )
 
 type customUint8 uint8

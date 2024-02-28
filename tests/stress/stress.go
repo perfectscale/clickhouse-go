@@ -19,21 +19,20 @@ package main
 
 import (
 	"context"
+	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
 	"log"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
 
-	clickhouse_tests "github.com/perfectscale/clickhouse-go/v2/tests"
-
 	"net/http"
 	_ "net/http/pprof"
 
+	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 	"github.com/google/uuid"
 	_ "github.com/mkevac/debugcharts"
-	"github.com/perfectscale/clickhouse-go/v2"
-	"github.com/perfectscale/clickhouse-go/v2/lib/driver"
 )
 
 type App struct {
