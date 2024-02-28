@@ -21,13 +21,14 @@ import (
 	"context"
 	"database/sql/driver"
 	"fmt"
-	"github.com/stretchr/testify/require"
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/require"
+
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/perfectscale/clickhouse-go/v2"
 )
 
 func TestDate32(t *testing.T) {

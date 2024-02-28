@@ -8,8 +8,8 @@ github.com/ClickHouse/ch-go v0.61.3 h1:MmBwUhXrAOBZK7n/sWBzq6FdIQ01cuF2SaaO8KlDR
 github.com/ClickHouse/ch-go v0.61.3/go.mod h1:1PqXjMz/7S1ZUaKvwPA3i35W2bz2mAMFeCi6DIXgGwQ=
 github.com/ClickHouse/clickhouse-go v1.5.4 h1:cKjXeYLNWVJIx2J1K6H2CqyRmfwVJVY1OV1coaaFcI0=
 github.com/ClickHouse/clickhouse-go v1.5.4/go.mod h1:EaI/sW7Azgz9UATzd5ZdZHRUhHgv5+JMS9NSr2smCJI=
-github.com/ClickHouse/clickhouse-go/v2 v2.19.0 h1:ATG+lJz750bNlGPxo6RF45awzU06DvsyfRn+UTrk4Xo=
-github.com/ClickHouse/clickhouse-go/v2 v2.19.0/go.mod h1:nOpS65jVgN/AjSZs7LFEr/8aGWj/0Qk1qYESKmoBioc=
+github.com/perfectscale/clickhouse-go/v2 v2.19.0 h1:ATG+lJz750bNlGPxo6RF45awzU06DvsyfRn+UTrk4Xo=
+github.com/perfectscale/clickhouse-go/v2 v2.19.0/go.mod h1:nOpS65jVgN/AjSZs7LFEr/8aGWj/0Qk1qYESKmoBioc=
 github.com/Microsoft/go-winio v0.6.1 h1:9/kr64B9VUZrLm5YYwbGtUJnMgqWVOdUAXu6Migciow=
 github.com/Microsoft/go-winio v0.6.1/go.mod h1:LRdKpFKfdobln8UmuiYcKPot9D2v6svN5+sAH+4kjUM=
 github.com/Microsoft/hcsshim v0.11.4 h1:68vKo2VN8DE9AdN4tnkWnmdhqdbpUFM8OF3Airm7fz8=

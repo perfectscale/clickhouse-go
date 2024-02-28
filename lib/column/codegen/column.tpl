@@ -147,6 +147,7 @@ func (t Type) Column(name string, tz *time.Location) (Interface, error) {
 	case strings.HasPrefix(string(t), "SimpleAggregateFunction"):
 		return (&SimpleAggregateFunction{name: name}).parse(t, tz)
 	case strings.HasPrefix(string(t), "AggregateFunction"):
+		fmt.Println("checking if aggregate")
 		return &Bool{name: name}, nil
 	case strings.HasPrefix(string(t), "Enum8") || strings.HasPrefix(string(t), "Enum16"):
 		return Enum(t, name)

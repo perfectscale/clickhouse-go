@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/ClickHouse/ch-go v0.61.3
 	github.com/ClickHouse/clickhouse-go v1.5.4
-	github.com/ClickHouse/clickhouse-go/v2 v2.19.0
+	github.com/perfectscale/clickhouse-go/v2 v2.19.0
 	github.com/andybalholm/brotli v1.1.0
 	github.com/docker/docker v25.0.3+incompatible
 	github.com/docker/go-connections v0.5.0
@@ -21,8 +21,6 @@ require (
 	golang.org/x/net v0.21.0
 	gopkg.in/yaml.v3 v3.0.1
 )
-
-replace github.com/Clickhouse/clickhouse-go/v2 => ./
 
 require go.opentelemetry.io/otel v1.24.0 // indirect
 

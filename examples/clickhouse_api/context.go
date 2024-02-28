@@ -20,11 +20,12 @@ package clickhouse_api
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
-	"github.com/google/uuid"
 	"net"
 	"time"
+
+	"github.com/google/uuid"
+	"github.com/perfectscale/clickhouse-go/v2"
+	clickhouse_tests "github.com/perfectscale/clickhouse-go/v2/tests"
 )
 
 func UseContext() error {

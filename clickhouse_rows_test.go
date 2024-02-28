@@ -1,10 +1,11 @@
 package clickhouse
 
 import (
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
-	"github.com/stretchr/testify/assert"
 	"strconv"
 	"testing"
+
+	"github.com/perfectscale/clickhouse-go/v2/lib/proto"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestReadWithEmptyBlock(t *testing.T) {

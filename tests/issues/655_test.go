@@ -19,11 +19,12 @@ package issues
 
 import (
 	"context"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
+	"testing"
+
+	"github.com/perfectscale/clickhouse-go/v2"
+	clickhouse_tests "github.com/perfectscale/clickhouse-go/v2/tests"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
 )
 
 // Test655 confirms an agreed semantic on failing batch append results with entire batch cancellation.

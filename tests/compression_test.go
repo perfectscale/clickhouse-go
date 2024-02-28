@@ -19,10 +19,11 @@ package tests
 
 import (
 	"context"
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"testing"
+
+	"github.com/perfectscale/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
 )
 
 func TestZSTDCompression(t *testing.T) {
