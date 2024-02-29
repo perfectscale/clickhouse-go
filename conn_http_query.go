@@ -21,9 +21,10 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	chproto "github.com/ClickHouse/ch-go/proto"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
 	"io"
+
+	chproto "github.com/ClickHouse/ch-go/proto"
+	"github.com/perfectscale/clickhouse-go/v2/lib/proto"
 )
 
 // release is ignored, because http used by std with empty release function

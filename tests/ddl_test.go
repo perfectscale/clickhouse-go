@@ -20,9 +20,10 @@ package tests
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/stretchr/testify/require"
 )
 
 func TestQuotedDDL(t *testing.T) {

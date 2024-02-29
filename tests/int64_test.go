@@ -19,11 +19,12 @@ package tests
 
 import (
 	"context"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"testing"
 	"time"
+
+	"github.com/perfectscale/clickhouse-go/v2"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 func TestDurationInt64(t *testing.T) {

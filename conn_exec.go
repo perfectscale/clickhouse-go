@@ -19,8 +19,9 @@ package clickhouse
 
 import (
 	"context"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
 	"time"
+
+	"github.com/perfectscale/clickhouse-go/v2/lib/proto"
 )
 
 func (c *connect) exec(ctx context.Context, query string, args ...any) error {

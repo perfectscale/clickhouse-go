@@ -21,14 +21,15 @@ import (
 	"database/sql"
 	"database/sql/driver"
 	"fmt"
-	"github.com/ClickHouse/ch-go/proto"
 	"math"
 	"reflect"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/timezone"
+	"github.com/ClickHouse/ch-go/proto"
+
+	"github.com/perfectscale/clickhouse-go/v2/lib/timezone"
 )
 
 var (

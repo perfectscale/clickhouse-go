@@ -19,10 +19,11 @@ package main
 
 import (
 	"context"
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"log"
 	"testing"
 	"time"
+
+	"github.com/perfectscale/clickhouse-go/v2"
 )
 
 func getConnection() clickhouse.Conn {

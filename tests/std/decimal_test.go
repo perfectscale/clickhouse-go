@@ -19,11 +19,12 @@ package std
 
 import (
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
-	"github.com/stretchr/testify/require"
 	"strconv"
 	"testing"
+
+	"github.com/perfectscale/clickhouse-go/v2"
+	clickhouse_tests "github.com/perfectscale/clickhouse-go/v2/tests"
+	"github.com/stretchr/testify/require"
 
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/assert"
